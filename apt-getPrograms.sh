@@ -39,3 +39,4 @@ echo "installing nmap"
 sudo apt-get -y install nmap
 echo "installing arduino"
 sudo apt-get -y install arduino
+sudo apt-get -y install ovpn
