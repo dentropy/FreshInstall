@@ -17,8 +17,6 @@ echo "installing pip"
 sudo apt-get -y install python-pip
 echo "installing curl"
 sudo apt-get -y install curl
-echo "installing open from terminal"
-sudo apt-get -y install nautilus-open-terminal
 echo "installing pip3"
 sudo apt-get -y install pip3
 echo "installing p7zip-full"
@@ -34,9 +32,10 @@ sudo apt-get -y install sl
 echo "installing x11vnc"
 sudo apt-get -y install x11vnc
 echo "installing the stuff for SciPi"
-sudo apt-get -y install python-numpy python-scipy python-matplotlib ipython ipython-notebook python-pandas python-sympy python-nose
-echo "installing nmap"
 sudo apt-get -y install nmap
 echo "installing arduino"
 sudo apt-get -y install arduino
 sudo apt-get -y install ovpn
+sudo apt-get -y install openvpn
+sudo apt-get -y install python-numpy python-scipy python-matplotlib ipython ipython-notebook python-pandas python-sympy python-nose
+echo "installing nmap"
