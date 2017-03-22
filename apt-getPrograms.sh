@@ -16,7 +16,7 @@ sudo apt-get -y install redshift
 sudo apt-get -y install openvpn
 sudo apt-get -y install bsdgames
 sudo apt-get -y install screen
-
+sudo apt-get -y install gparted
 #Funny stuff
 echo "cmatrix"
 sudo apt-get -y install cmatrix
