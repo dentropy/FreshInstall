@@ -1,0 +1,3 @@
+# Riot (Matrix client)
+deb https://riot.im/packages/debian/ jessie main
+deb-src https://riot.im/packages/debian/ jessie main

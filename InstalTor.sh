@@ -1,4 +1,0 @@
-#!/bin/bash
-sudo add-apt-repository ppa:webupd8team/tor-browser
-sudo apt-get update
-sudo apt-get install -y tor-browser
