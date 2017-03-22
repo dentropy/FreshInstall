@@ -37,4 +37,4 @@ echo "installing arduino"
 sudo apt-get -y install arduino
 sudo apt-get -y install redshift
 sudo apt-get -y install openvpn
-
+sudo apt-get -y install bsdgames
