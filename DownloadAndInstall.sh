@@ -1,41 +1,42 @@
 #!/bin/bash
 sudo apt-get update
-wget https://repo.continuum.io/archive/Anaconda3-4.3.1-Linux-x86_64.sh
 wget https://atom-installer.github.com/v1.15.0/atom-amd64.deb
 wget https://repo.skype.com/latest/skypeforlinux-64.deb
 wget https://download.teamviewer.com/download/teamviewer_i386.deb
 https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
 wget http://download.virtualbox.org/virtualbox/5.1.18/virtualbox-5.1_5.1.18-114002~Ubuntu~xenial_amd64.deb
 wget https://steamcdn-a.akamaihd.net/client/installer/steam.deb
+wget https://repo.continuum.io/archive/Anaconda3-4.3.1-Linux-x86_64.sh
 chmod +x *.sh
-./Anaconda*
 #Install atom
 sudo dpkg -i atom-amd64.deb
-sudo apt-get -f install
+sudo apt-get -y -f install
 sudo dpkg -i atom-amd64.deb
 #Configure atom
 apm install atom-beautify
 apm install platformio-ide-terminal
 #Install skype
 sudo dpkg -i skypeforlinux-64.deb
-sudo apt-get -f install
+sudo apt-get -y -f install
 sudo dpkg -i skypeforlinux-64.deb
 #Install teamviewer
 sudo dpkg -i teamviewer_i386.deb
-sudo apt-get -f install
+sudo apt-get -y -f install
 sudo dpkg -i teamviewer_i386.deb
 #Install google chrome
 sudo dpkg -i google-chrome-stable_current_amd64.deb
-sudo apt-get -f install
+sudo apt-get -y -f install
 sudo dpkg -i google-chrome-stable_current_amd64.deb
 #Install virtualbox
 sudo dpkg -i virtualbox*
-sudo apt-get -f install
+sudo apt-get -y -f install
 sudo dpkg -i virtualbox*
 #Install steam
 sudo dpkg -i steam*
-sudo apt-get -f install
+sudo apt-get -y -f install
 sudo dpkg -i steam*
+#Install Anaconda
+./Anaconda*
 #Install riot
 wget https://riot.im/packages/debian/repo-key.asc
 sudo apt-key add repo-key.asc

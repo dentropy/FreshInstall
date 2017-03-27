@@ -36,15 +36,3 @@ sudo apt-get install keepass2
 pip3 install --user thefuck
 sudo apt install thefuck
 eval $(thefuck --alias fuck)
-
-
-#Install tor-browser
-sudo add-apt-repository ppa:webupd8team/tor-browser
-sudo apt-get update
-sudo apt-get install -y tor-browser
-
-#Install sci-pi stuff
-echo "installing the stuff for SciPi"
-python -m pip install --upgrade pip
-pip install --user numpy scipy matplotlib ipython jupyter pandas sympy nose
-sudo apt-get -y install python-numpy python-scipy python-matplotlib ipython ipython-notebook python-pandas python-sympy python-nose
