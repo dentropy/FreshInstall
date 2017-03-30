@@ -6,7 +6,6 @@ sudo apt-get -y install dolphin
 sudo apt-get -y install git
 sudo apt-get -y install vim
 sudo apt-get -y install curl3
-sudo apt-get -y install p7zip-full
 sudo apt-get -y install tmux
 sudo apt-get -y install cu
 sudo apt-get -y install x11vnc
