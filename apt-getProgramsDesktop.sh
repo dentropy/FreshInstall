@@ -13,7 +13,8 @@ sudo apt-get -y install vlc
 sudo apt-get -y install dolphin
 sudo apt-get -y install cu
 sudo apt-get -y install gparted
-sudo apt install -y gnome-tweak-tool
+sudo apt -y install gnome-tweak-tool
+sudo apt-get -y install chrome-gnome-shell
 
 #Automate installing gnome night light slider later
 firefox https://github.com/TimurKiyivinski/gnome-shell-night-light-slider-extension
