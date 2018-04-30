@@ -20,7 +20,7 @@ sudo apt-get -y install openvpn
 sudo apt-get -y install bsdgames
 sudo apt-get -y install screen
 sudo apt -y install net-tools
-
+sudo apt -y install htop
 #Python Stuff
 echo "installing python stuff"
 sudo apt-get -y install python-pip python3-pip python3-dev
