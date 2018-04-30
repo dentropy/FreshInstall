@@ -15,7 +15,7 @@ sudo apt-get -y install cu
 sudo apt-get -y install gparted
 sudo apt -y install gnome-tweak-tool
 sudo apt-get -y install chrome-gnome-shell
-
+sudo apt-get -y install libreoffice
 #Automate installing gnome night light slider later
 firefox https://github.com/TimurKiyivinski/gnome-shell-night-light-slider-extension
 firefox https://itsfoss.com/gnome-shell-extensions/
