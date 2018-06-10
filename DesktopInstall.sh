@@ -19,6 +19,7 @@ sudo apt-get -y install gparted
 sudo apt -y install gnome-tweak-tool
 sudo apt-get -y install chrome-gnome-shell
 sudo apt-get -y install libreoffice
+snap install brave
 #This installs OBS studio
 sudo apt-get install ffmpeg
 sudo apt-get update
