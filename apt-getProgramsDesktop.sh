@@ -1,6 +1,7 @@
 #!/bin/bash
 #Get the PPA's
 sudo add-apt-repository ppa:obsproject/obs-studio
+sudo add-apt-repository ppa:webupd8team/tor-browser
 #install visual studio code
 curl https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor > microsoft.gpg
 sudo mv microsoft.gpg /etc/apt/trusted.gpg.d/microsoft.gpg
@@ -22,6 +23,10 @@ sudo apt-get -y install libreoffice
 sudo apt-get install ffmpeg
 sudo apt-get update
 sudo apt-get install obs-studio
+#Install tor-browser
+sudo add-apt-repository ppa:webupd8team/tor-browser
+sudo apt-get update
+sudo apt-get install -y tor-browser
 #Automate installing gnome night light slider later
 firefox https://github.com/TimurKiyivinski/gnome-shell-night-light-slider-extension
 firefox https://itsfoss.com/gnome-shell-extensions/
