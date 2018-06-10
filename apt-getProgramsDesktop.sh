@@ -1,4 +1,6 @@
 #!/bin/bash
+#Get the PPA's
+sudo add-apt-repository ppa:obsproject/obs-studio
 #install visual studio code
 curl https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor > microsoft.gpg
 sudo mv microsoft.gpg /etc/apt/trusted.gpg.d/microsoft.gpg
@@ -16,6 +18,10 @@ sudo apt-get -y install gparted
 sudo apt -y install gnome-tweak-tool
 sudo apt-get -y install chrome-gnome-shell
 sudo apt-get -y install libreoffice
+#This installs OBS studio
+sudo apt-get install ffmpeg
+sudo apt-get update
+sudo apt-get install obs-studio
 #Automate installing gnome night light slider later
 firefox https://github.com/TimurKiyivinski/gnome-shell-night-light-slider-extension
 firefox https://itsfoss.com/gnome-shell-extensions/
