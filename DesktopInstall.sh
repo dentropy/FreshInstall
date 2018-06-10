@@ -19,7 +19,8 @@ sudo apt-get -y install gparted
 sudo apt -y install gnome-tweak-tool
 sudo apt-get -y install chrome-gnome-shell
 sudo apt-get -y install libreoffice
-snap install brave
+sudo apt -y install arduino
+sudo snap install brave
 #This installs OBS studio
 sudo apt-get install ffmpeg
 sudo apt-get update
@@ -31,3 +32,4 @@ sudo apt-get install -y tor-browser
 #Automate installing gnome night light slider later
 firefox https://github.com/TimurKiyivinski/gnome-shell-night-light-slider-extension
 firefox https://itsfoss.com/gnome-shell-extensions/
+bash DownloadAndInstall.sh

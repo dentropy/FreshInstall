@@ -1,0 +1,4 @@
+*.deb
+#For the anaconda install because anacondat downloads a .sh file
+*Linux-x86_64*
+*.tar.xz
