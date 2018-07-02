@@ -1,29 +1,33 @@
 #!/bin/bash
-#install KeePass2
-sudo apt-add-repository ppa:jtaylor/keepass
-sudo apt-get update
-sudo apt-get install -y keepass2
 
-sudo apt install curl
-#install nodejs
-curl -sL https://deb.nodesource.com/setup_9.x | sudo -E bash -
-sudo apt-get install -y nodejs
 
 #Install from default repositories
-sudo apt-get -y install git
-sudo apt-get -y install vim
-sudo apt-get -y install curl3
-sudo apt-get -y install tmux
-sudo apt-get -y install x11vnc
-sudo apt-get -y install nmap
-sudo apt-get -y install openvpn
-sudo apt-get -y install bsdgames
-sudo apt-get -y install screen
+sudo apt -y install python python-pip python-dev
+sudo apt -y install python3 python3-pip python3-dev
+sudo apt -y install curl
+sudo apt -y install git
+sudo apt -y install vim
+sudo apt -y install curl3
+sudo apt -y install tmux
+sudo apt -y install x11vnc
+sudo apt -y install nmap
+sudo apt -y install openvpn
+sudo apt -y install bsdgames
+sudo apt -y install screen
 sudo apt -y install net-tools
+sudo apt -y install youtube-dl
+sudo apt -y install openjdk-8-jre
+sudo apt -y install nmon
+sudo apt -y install terminator
+sudo apt -y install youtube-dl
+#sudo apt -y install bsdgames
 
-#Python Stuff
-echo "installing python stuff"
-sudo apt-get -y install python-pip python3-pip python3-dev
+
+#install nodejs
+wget -qO- https://raw.githubusercontent.com/creationix/nvm/v0.33.11/install.sh | bash
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm
+
 
 #Install thefuck
 #The fuck needs python3-dev python3-pip
