@@ -1,6 +1,11 @@
 #!/bin/bash
-#install KeePass2
+
+#Get the PPA's
+sudo add-apt-repository ppa:obsproject/obs-studio
+sudo add-apt-repository ppa:webupd8team/tor-browser
 sudo apt-add-repository ppa:jtaylor/keepass
+
+#install KeePass2
 sudo apt-get update
 sudo apt-get install -y keepass2
 
@@ -22,8 +27,20 @@ sudo apt -y install cu
 sudo apt -y install gparted
 sudo apt -y install gnome-tweak-tool
 sudo apt -y install chrome-gnome-shell
+sudo apt -y install libreoffice
+sudo apt -y install arduino
 
+#This installs OBS studio
+sudo apt-get install ffmpeg
+sudo apt-get update
+sudo apt-get install obs-studio
+
+#Install tor-browser
+sudo add-apt-repository ppa:webupd8team/tor-browser
+sudo apt-get update
+sudo apt-get install -y tor-browser
 
 #Automate installing gnome night light slider later
 firefox https://github.com/TimurKiyivinski/gnome-shell-night-light-slider-extension
 firefox https://itsfoss.com/gnome-shell-extensions/
+bash DownloadAndInstall.sh
