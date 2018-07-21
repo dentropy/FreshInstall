@@ -16,7 +16,6 @@ sudo apt -y install bsdgames
 sudo apt -y install screen
 sudo apt -y install net-tools
 sudo apt -y install youtube-dl
-sudo apt -y install openjdk-8-jre
 sudo apt -y install nmon
 sudo apt -y install terminator
 sudo apt -y install youtube-dl
