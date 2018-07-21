@@ -23,20 +23,18 @@ sudo apt -y install youtube-dl
 #sudo apt -y install bsdgames
 
 
-#install nodejs
+#Install and configure thefuck
+sudo pip3 install thefuck
+eval $(thefuck --alias)
+source ~/.bashrc
+
+
+#install node version manager
 wget -qO- https://raw.githubusercontent.com/creationix/nvm/v0.33.11/install.sh | bash
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm
 
 
-#Install thefuck
-#The fuck needs python3-dev python3-pip
-pip3 install --user thefuck
-sudo apt install -y thefuck
-eval $(thefuck --alias fuck)
-
 #Funny stuff
-echo "cmatrix"
 sudo apt-get -y install cmatrix
-echo "sl LOL"
 sudo apt-get -y install sl
