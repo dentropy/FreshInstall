@@ -1,8 +1,8 @@
 #!/bin/bash
 
 #Get the PPA's
-sudo add-apt-repository ppa:obsproject/obs-studio
-sudo apt-add-repository ppa:jtaylor/keepass
+sudo add-apt-repository -y ppa:obsproject/obs-studio
+sudo apt-add-repository -y ppa:jtaylor/keepass
 
 #Install tor-browser
 #sudo add-apt-repository ppa:webupd8team/tor-browser
@@ -10,7 +10,7 @@ sudo apt-add-repository ppa:jtaylor/keepass
 #sudo apt-get install -y tor-browser
 
 #install KeePass2
-sudo apt-get update
+sudo apt-get -y update
 sudo apt-get install -y keepass2
 
 
