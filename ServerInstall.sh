@@ -19,6 +19,7 @@ sudo apt -y install youtube-dl
 sudo apt -y install nmon
 sudo apt -y install terminator
 sudo apt -y install youtube-dl
+sudo apt -y install htop
 #sudo apt -y install bsdgames
 
 
