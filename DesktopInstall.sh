@@ -24,6 +24,7 @@ sudo apt-get install -y keepass2
 
 #Install everything else
 sudo snap install atom --classic
+sudo apt-get install xclip
 sudo apt-get install shutter
 sudo apt -y install chromium-browser
 sudo snap install brave
