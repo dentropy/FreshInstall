@@ -1,8 +1,5 @@
 #!/bin/bash
 
-#Get the PPA's
-sudo add-apt-repository -y ppa:obsproject/obs-studio
-
 #install visual studio code
 #curl https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor > microsoft.gpg
 #sudo mv microsoft.gpg /etc/apt/trusted.gpg.d/microsoft.gpg
@@ -10,28 +7,48 @@ sudo add-apt-repository -y ppa:obsproject/obs-studio
 #sudo apt-get update
 #sudo apt-get install -y code
 
+#Browsers
+sudo snap install brave
+sudo snap install chromium
+sudo snap install opera
+
+#Code Editors
+sudo snap install atom --classic
+sudo snap isntall sublime-text --classic
+sudo snap install vscode --classic
+sudo snap install android-studio --classic
+
+#Social Networking
+#For now I perfer the web app
+#sudo snap install discord
+#sudo snap install slack --classic
+#sudo snap install skype --classic
+#sudo snap install telegram-desktop
 
 #Install everything else
+#Install from snapcraft
 sudo snap install keepassxc
-sudo snap install brave
-sudo snap install atom --classic
+sudo snap install bitwarden
+sudo snap install vlc
+sudo snap install ffmpeg
+sudo snap install obs-studio
+sudo snap install gimp
+sudo snap install inkscape
+sudo snap install postgresql10
+sudo snap install docker
+sudo snap install libreoffice
+
+#Install via api package manager
 sudo apt -y install xclip
 sudo apt -y install shutter
-sudo apt -y install chromium-browser
-sudo apt -y install vlc
 sudo apt -y install dolphin
-sudo apt -y install cu
 sudo apt -y install gparted
 sudo apt -y install gnome-tweak-tool
 sudo apt -y install chrome-gnome-shell
-sudo apt -y install libreoffice
 sudo apt -y install arduino
 
-#This installs OBS studio
-sudo apt-get -y install ffmpeg
-sudo apt-get update
-sudo apt-get -y install obs-studio
-
+#Not used enough to be installed
+#sudo apt -y install cu
 
 #Automate installing gnome night light slider later
 chromium-browser https://github.com/TimurKiyivinski/gnome-shell-night-light-slider-extension
