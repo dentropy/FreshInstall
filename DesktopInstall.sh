@@ -2,17 +2,6 @@
 
 #Get the PPA's
 sudo add-apt-repository -y ppa:obsproject/obs-studio
-sudo apt-add-repository -y ppa:jtaylor/keepass
-
-#Install tor-browser
-#sudo add-apt-repository ppa:webupd8team/tor-browser
-#sudo apt-get update
-#sudo apt-get install -y tor-browser
-
-#install KeePass2
-sudo apt-get -y update
-sudo apt-get install -y keepass2
-
 
 #install visual studio code
 #curl https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor > microsoft.gpg
@@ -23,11 +12,12 @@ sudo apt-get install -y keepass2
 
 
 #Install everything else
-sudo snap install atom --classic
-sudo apt-get install xclip
-sudo apt-get install shutter
-sudo apt -y install chromium-browser
+sudo snap install keepassxc
 sudo snap install brave
+sudo snap install atom --classic
+sudo apt -y install xclip
+sudo apt -y install shutter
+sudo apt -y install chromium-browser
 sudo apt -y install vlc
 sudo apt -y install dolphin
 sudo apt -y install cu
@@ -38,12 +28,12 @@ sudo apt -y install libreoffice
 sudo apt -y install arduino
 
 #This installs OBS studio
-sudo apt-get install ffmpeg
+sudo apt-get -y install ffmpeg
 sudo apt-get update
-sudo apt-get install obs-studio
+sudo apt-get -y install obs-studio
 
 
 #Automate installing gnome night light slider later
-firefox https://github.com/TimurKiyivinski/gnome-shell-night-light-slider-extension
-firefox https://itsfoss.com/gnome-shell-extensions/
+chromium-browser https://github.com/TimurKiyivinski/gnome-shell-night-light-slider-extension
+chromium-browser https://itsfoss.com/gnome-shell-extensions/
 bash DownloadAndInstall.sh
