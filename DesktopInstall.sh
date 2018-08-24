@@ -46,9 +46,8 @@ sudo apt -y install gparted
 sudo apt -y install gnome-tweak-tool
 sudo apt -y install chrome-gnome-shell
 sudo apt -y install arduino
-
-#Not used enough to be installed
-#sudo apt -y install cu
+sudo apt -y install espeak
+sudo apt -y install cu
 
 #Automate installing gnome night light slider later
 chromium-browser https://github.com/TimurKiyivinski/gnome-shell-night-light-slider-extension
