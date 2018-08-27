@@ -21,9 +21,9 @@ sudo snap install android-studio --classic
 #Social Networking
 #For now I perfer the web app
 sudo snap install discord
-#sudo snap install slack --classic
-#sudo snap install skype --classic
-#sudo snap install telegram-desktop
+sudo snap install slack --classic
+sudo snap install skype --classic
+sudo snap install telegram-desktop
 
 #Install everything else
 #Install from snapcraft
@@ -35,7 +35,6 @@ sudo snap install obs-studio
 sudo snap install gimp
 sudo snap install inkscape
 sudo snap install postgresql10
-sudo snap install docker
 sudo snap install libreoffice
 sudo snap install postman
 sudo snap install inkscape
@@ -53,6 +52,29 @@ sudo apt -y install espeak
 sudo apt -y install cu
 sudo apt -y install network-manager-openvpn-gnome
 sudo apt -y install shutter
+
+#Install docker from docker website
+#https://docs.docker.com/install/linux/docker-ce/ubuntu/#os-requirements
+sudo apt-get remove docker docker-engine docker.io
+sudo apt-get update
+sudo apt-get install \
+    apt-transport-https \
+    ca-certificates \
+    curl \
+    software-properties-common
+curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
+sudo apt-key fingerprint 0EBFCD88
+sudo add-apt-repository \
+   "deb [arch=amd64] https://download.docker.com/linux/ubuntu \
+   $(lsb_release -cs) \
+   stable"
+sudo apt-get update
+sudo apt-get install docker-ce
+#sudo docker run hello-world
+#https://docs.docker.com/compose/install/#install-compose
+sudo curl -L https://github.com/docker/compose/releases/download/1.22.0/docker-compose-$(uname -s)-$(uname -m) -o /usr/local/bin/docker-compose
+sudo chmod +x /usr/local/bin/docker-compose
+docker-compose --version
 
 #Automate installing gnome night light slider later
 chromium-browser https://github.com/TimurKiyivinski/gnome-shell-night-light-slider-extension
