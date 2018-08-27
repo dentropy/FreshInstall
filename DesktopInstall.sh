@@ -20,7 +20,7 @@ sudo snap install android-studio --classic
 
 #Social Networking
 #For now I perfer the web app
-#sudo snap install discord
+sudo snap install discord
 #sudo snap install slack --classic
 #sudo snap install skype --classic
 #sudo snap install telegram-desktop
@@ -39,6 +39,7 @@ sudo snap install docker
 sudo snap install libreoffice
 sudo snap install postman
 sudo snap install inkscape
+sudo snap install gitkraken
 
 #Install via api package manager
 sudo apt -y install xclip
