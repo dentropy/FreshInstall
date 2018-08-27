@@ -37,6 +37,7 @@ sudo snap install inkscape
 sudo snap install postgresql10
 sudo snap install docker
 sudo snap install libreoffice
+sudo snap install postman
 
 #Install via api package manager
 sudo apt -y install xclip
