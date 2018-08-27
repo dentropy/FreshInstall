@@ -48,6 +48,7 @@ sudo apt -y install chrome-gnome-shell
 sudo apt -y install arduino
 sudo apt -y install espeak
 sudo apt -y install cu
+sudo apt -y install network-manager-openvpn-gnome
 
 #Automate installing gnome night light slider later
 chromium-browser https://github.com/TimurKiyivinski/gnome-shell-night-light-slider-extension
