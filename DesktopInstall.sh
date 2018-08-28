@@ -52,7 +52,7 @@ sudo apt -y install espeak
 sudo apt -y install cu
 sudo apt -y install network-manager-openvpn-gnome
 sudo apt -y install shutter
-
+sudo apt -y install qbittorrent
 #Automate installing gnome night light slider later
 chromium-browser https://github.com/TimurKiyivinski/gnome-shell-night-light-slider-extension
 chromium-browser https://itsfoss.com/gnome-shell-extensions/
