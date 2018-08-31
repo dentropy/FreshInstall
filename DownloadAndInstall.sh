@@ -2,4 +2,5 @@
 sudo apt-get update
 ./Modules/Keybase.sh
 ./Modules/Brave.sh
-./Modules/Keybase.sh
+./Modules/GoogleChrome.sh
+./Modules/Mega.sh
