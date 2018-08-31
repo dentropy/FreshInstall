@@ -1,16 +1,18 @@
 #!/bin/bash
 
+#Get the PPA's
+sudo add-apt-repository ppa:inkscape.dev/stable
+sudo add-apt-repository ppa:libreoffice/ppa
+sudo add-apt-repository ppa:obsproject/obs-studio
+sudo add-apt-repository ppa:phoerious/keepassxc
+
+
 #install visual studio code
 #curl https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor > microsoft.gpg
 #sudo mv microsoft.gpg /etc/apt/trusted.gpg.d/microsoft.gpg
 #sudo sh -c 'echo "deb [arch=amd64] https://packages.microsoft.com/repos/vscode stable main" > /etc/apt/sources.list.d/vscode.list'
 #sudo apt-get update
 #sudo apt-get install -y code
-
-#Browsers
-sudo snap install brave
-sudo snap install chromium
-sudo snap install opera
 
 #Code Editors
 sudo snap install atom --classic
@@ -27,20 +29,18 @@ sudo snap install telegram-desktop
 
 #Install everything else
 #Install from snapcraft
-sudo snap install keepassxc
 sudo snap install bitwarden
-sudo snap install vlc
-sudo snap install ffmpeg
-sudo snap install obs-studio
-sudo snap install gimp
-sudo snap install inkscape
-sudo snap install postgresql10
-sudo snap install libreoffice
 sudo snap install postman
-sudo snap install inkscape
-sudo snap install gitkraken
 
 #Install via api package manager
+sudo apt -y install keepassxc
+sudo apt -y install postgresql postgresql-contrib
+sudo apt -y install vlc
+sudo apt -y install obs-studio
+sudo apt -y install gimp
+sudo apt -y install libreoffice
+sudo apt -y install inkscape
+sudo apt -y install chromium-browser
 sudo apt -y install xclip
 sudo apt -y install shutter
 sudo apt -y install dolphin
@@ -53,7 +53,10 @@ sudo apt -y install cu
 sudo apt -y install network-manager-openvpn-gnome
 sudo apt -y install shutter
 sudo apt -y install qbittorrent
+sudo apt -y install qutebrowser
+
 #Automate installing gnome night light slider later
-chromium-browser https://github.com/TimurKiyivinski/gnome-shell-night-light-slider-extension
-chromium-browser https://itsfoss.com/gnome-shell-extensions/
+#chromium-browser https://github.com/TimurKiyivinski/gnome-shell-night-light-slider-extension
+#chromium-browser https://itsfoss.com/gnome-shell-extensions/
+
 bash DownloadAndInstall.sh
