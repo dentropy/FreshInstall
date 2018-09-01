@@ -7,6 +7,7 @@ sudo add-apt-repository ppa:obsproject/obs-studio
 sudo add-apt-repository ppa:phoerious/keepassxc
 
 
+sudo apt -y install chromium-browser
 #install visual studio code
 #curl https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor > microsoft.gpg
 #sudo mv microsoft.gpg /etc/apt/trusted.gpg.d/microsoft.gpg
@@ -40,7 +41,6 @@ sudo apt -y install obs-studio
 sudo apt -y install gimp
 sudo apt -y install libreoffice
 sudo apt -y install inkscape
-sudo apt -y install chromium-browser
 sudo apt -y install xclip
 sudo apt -y install shutter
 sudo apt -y install dolphin
