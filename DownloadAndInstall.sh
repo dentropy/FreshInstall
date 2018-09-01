@@ -1,6 +1,6 @@
 #!/bin/bash
 sudo apt-get update
-./Modules/Keybase.sh
-./Modules/Brave.sh
-./Modules/GoogleChrome.sh
-./Modules/Mega.sh
+sudo ./Modules/Keybase.sh
+sudo ./Modules/Brave.sh
+sudo ./Modules/GoogleChrome.sh
+sudo ./Modules/Mega.sh
