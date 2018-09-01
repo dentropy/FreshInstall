@@ -26,6 +26,7 @@ sudo snap install telegram-desktop
 #Install from snapcraft
 sudo snap install bitwarden
 sudo snap install postman
+sudo snap install brave
 
 #Install via api package manager
 sudo apt -y install keepassxc
