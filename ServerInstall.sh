@@ -21,7 +21,7 @@ sudo apt -y install terminator
 sudo apt -y install youtube-dl
 sudo apt -y install htop
 sudo apt -y install bsdgames
-
+sudo apt -y install samba
 
 #Install and configure thefuck
 sudo pip3 install thefuck
