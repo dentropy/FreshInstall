@@ -10,23 +10,23 @@ sudo add-apt-repository ppa:phoerious/keepassxc
 sudo apt -y install chromium-browser
 
 #Code Editors
-sudo snap install atom --classic
-sudo snap isntall sublime-text --classic
-sudo snap install vscode --classic
-sudo snap install android-studio --classic
+#sudo snap install atom --classic
+#sudo snap isntall sublime-text --classic
+#sudo snap install vscode --classic
+#sudo snap install android-studio --classic
 
 #Social Networking
 #For now I perfer the web app
-sudo snap install discord
-sudo snap install slack --classic
-sudo snap install skype --classic
-sudo snap install telegram-desktop
+#sudo snap install discord
+#sudo snap install slack --classic
+#sudo snap install skype --classic
+#sudo snap install telegram-desktop
 
 #Install everything else
 #Install from snapcraft
-sudo snap install bitwarden
-sudo snap install postman
-sudo snap install brave
+#sudo snap install bitwarden
+#sudo snap install postman
+#sudo snap install brave
 
 #Install via api package manager
 sudo apt -y install keepassxc
