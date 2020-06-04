@@ -9,6 +9,11 @@ sudo add-apt-repository ppa:phoerious/keepassxc
 
 sudo apt -y install chromium-browser
 
+# VS Codium
+wget -qO - https://gitlab.com/paulcarroty/vscodium-deb-rpm-repo/raw/master/pub.gpg | sudo apt-key add -
+echo 'deb https://gitlab.com/paulcarroty/vscodium-deb-rpm-repo/raw/repos/debs/ vscodium main' | sudo tee --append /etc/apt/sources.list.d/vscodium.list
+sudo apt update && sudo apt install codium
+
 #Code Editors
 #sudo snap install atom --classic
 #sudo snap isntall sublime-text --classic
@@ -29,8 +34,8 @@ sudo apt -y install chromium-browser
 #sudo snap install brave
 
 #Install via api package manager
-sudo apt -y install keepassxc
-sudo apt -y install postgresql postgresql-contrib
+# sudo apt -y install keepassxc
+sudo apt -y install postgresql
 sudo apt -y install vlc
 sudo apt -y install obs-studio
 sudo apt -y install gimp
@@ -38,20 +43,19 @@ sudo apt -y install libreoffice
 sudo apt -y install inkscape
 sudo apt -y install xclip
 sudo apt -y install shutter
-sudo apt -y install dolphin
+# sudo apt -y install dolphin
 sudo apt -y install gparted
-sudo apt -y install gnome-tweak-tool
-sudo apt -y install chrome-gnome-shell
-sudo apt -y install arduino
+# sudo apt -y install gnome-tweak-tool
+# sudo apt -y install chrome-gnome-shell
+# sudo apt -y install arduino
 sudo apt -y install espeak
-sudo apt -y install cu
-sudo apt -y install network-manager-openvpn-gnome
+# sudo apt -y install cu
+# sudo apt -y install network-manager-openvpn-gnome
 sudo apt -y install shutter
 sudo apt -y install qbittorrent
 sudo apt -y install qutebrowser
 
+
 #Automate installing gnome night light slider later
 #chromium-browser https://github.com/TimurKiyivinski/gnome-shell-night-light-slider-extension
 #chromium-browser https://itsfoss.com/gnome-shell-extensions/
-
-bash DownloadAndInstall.sh
