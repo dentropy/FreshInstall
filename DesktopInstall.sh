@@ -4,7 +4,7 @@
 sudo add-apt-repository ppa:inkscape.dev/stable
 sudo add-apt-repository ppa:libreoffice/ppa
 sudo add-apt-repository ppa:obsproject/obs-studio
-sudo add-apt-repository ppa:phoerious/keepassxc
+# sudo add-apt-repository ppa:phoerious/keepassxc
 
 
 sudo apt -y install chromium-browser
