@@ -13,9 +13,6 @@ cd FreshInstall
 bash ServerInstall.sh
 ```
 
-<<<<<<< HEAD
 ## Footnotes
 
-=======
->>>>>>> 6fdeda17c08d7c1d568f07407df4f999c50b6e93
 <a href ="http://packages.ubuntu.com/trusty/amd64/bsdgames/filelist">bsd game list</a>
