@@ -43,3 +43,4 @@ sudo apt-get -y install sl
 wget get.docker.com -O docker.sh
 sudo bash docker.sh
 rm docker.sh
+sudo usermod -aG docker $USER
