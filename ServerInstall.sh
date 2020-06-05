@@ -44,3 +44,4 @@ wget get.docker.com -O docker.sh
 sudo bash docker.sh
 rm docker.sh
 sudo usermod -aG docker $USER
+sudo apt install -y docker-compose
