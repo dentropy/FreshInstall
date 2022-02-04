@@ -15,4 +15,4 @@ bash ServerInstall.sh
 
 ## Footnotes
 
-<a href ="http://packages.ubuntu.com/trusty/amd64/bsdgames/filelist">bsd game list</a>
+* [BSD games](https://wiki.linuxquestions.org/wiki/BSD_games)
